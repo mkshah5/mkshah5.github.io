@@ -119,11 +119,11 @@ Awards
 * Graduate Merit Award (2021)
 * Dean's List-Pratt School of Engineering (x3; 2017-2020)
 
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 <!-- Teaching
 ======
