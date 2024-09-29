@@ -82,7 +82,7 @@ I couldn’t decide whether to put this stuff under the *Types* category or not,
   <img src="/images/blog/graphs_in_cs/fig8.png"/>
 </p>
 
-Cliques are fully connected subgraphs (peep the set of nodes connected by red edges). Every node part of the clique is connected to every other node in the clique. These could have some implications depending on the application. Bipartite graphs have an analog called bicliques: https://en.wikipedia.org/wiki/Complete_bipartite_graph. Check out this page for more.
+Cliques are fully connected subgraphs (peep the set of nodes connected by red edges). Every node part of the clique is connected to every other node in the clique. These could have some implications depending on the application. Bipartite graphs have an analog called bicliques: [https://en.wikipedia.org/wiki/Complete_bipartite_graph](https://en.wikipedia.org/wiki/Maximum_cut). Check out this page for more.
 
 # Algorithms
 All this graph business is great and all, but who cares if you can’t do something with them?
@@ -104,10 +104,10 @@ Though I’m showing trees here, we can extend this to any graph really. You pro
 Let’s say we start at node 1. Our DFS traversal could be: 1, 2, 5, 4, 3. Generally, we don’t want to visit the same node twice, hence why we don’t have 1, 2, 5, 4, 5, 4, 3. Our BFS traversal could be: 1, 2, 4, 3, 5. Pretty interesting, right?
 
 ### MaxCut
-AHA! I already went over this one! Pulled a fast one there. Look at the **Unweighted vs Weighted** section, specifically where I talk about splitting the graph into two partitions. This is the MaxCut problem. Here’s the Wikipedia: https://en.wikipedia.org/wiki/Maximum_cut.
+AHA! I already went over this one! Pulled a fast one there. Look at the **Unweighted vs Weighted** section, specifically where I talk about splitting the graph into two partitions. This is the MaxCut problem. Here’s the Wikipedia: [https://en.wikipedia.org/wiki/Maximum_cut](https://en.wikipedia.org/wiki/Maximum_cut).
 
 ### Max Clique
-This one is fairly straightforward (https://en.wikipedia.org/wiki/Clique_problem). We want to figure out what the largest clique in the graph is, that is, the clique with the most nodes in a graph. There’s also the maximum biclique problem for bipartite graphs, with two versions: finding the biclique with the most edges and finding the biclique with the most nodes. These two versions are NOT the same.
+This one is fairly straightforward ([https://en.wikipedia.org/wiki/Clique_problem](https://en.wikipedia.org/wiki/Maximum_cut)). We want to figure out what the largest clique in the graph is, that is, the clique with the most nodes in a graph. There’s also the maximum biclique problem for bipartite graphs, with two versions: finding the biclique with the most edges and finding the biclique with the most nodes. These two versions are NOT the same.
 
 # Wrapping Up
 Well, this was a lot. Graph theory is a lot. It’s still a hopping field, with applications ranging from social media to biology to deep learning. Hopefully this gave you a taste of the world within. Till next time.
