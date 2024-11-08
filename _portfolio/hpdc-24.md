@@ -3,4 +3,4 @@ title: "Compressing Training Data on Cerebras, SambaNova, Graphcore, and Groq Pl
 collection: portfolio
 ---
 
-[Repository (UNDER MAINTENANCE)](https://github.com/mkshah5/AI-Accelerator-Compression)
+[Repository](https://github.com/mkshah5/AI-Accelerator-Compression)
